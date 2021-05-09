@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-section-container {
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: rgba(233, 221, 209, 0.919);
+}
+
+.Container-Input-Usuario {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 0.5fr;
+  grid-auto-rows: 10vh;
+
+}
+
+input {
+  border:none;
+}
+
+Inpute {
+ max-width: 30%;
+}
+  
+
+h4{
+  font-size:20px;
+  margin-left: 1em;
+}
+
+p{
+  font-size: 18px;
+  padding: 1.2em 0; 
+  line-height: 1.3;
+  font-weight: 450;
+  margin-left: -1em; 
+  margin-top: 0.1em;
+} 
+
+/* .inputs {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 0.5fr;
+  grid-auto-rows: 7vh;
+} */
